@@ -27,7 +27,7 @@ class LinearEquation{
         return this._f;
     }
 
-    get isSolvable(){
+    isSolvable(){
         return this._a*this._d - this._b*this._c != 0 ? true : '';
     }
 
@@ -46,7 +46,7 @@ class LinearEquation{
 
 function solveLinearEquation(a,b,c,d,e,f){
     const LinearEquation1 = new LinearEquation(a,b,c,d,e,f);
-    if (LinearEquation1.isSolvable){
+    if (LinearEquation1.isSolvable()){
         console.log(`x is ${LinearEquation1.getX} and y is ${LinearEquation1.getY}`)
     }
     else {
