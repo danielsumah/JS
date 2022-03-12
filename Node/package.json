@@ -1,0 +1,22 @@
+{
+  "name": "intro-node",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsumah/JS.git"
+  },
+  "author": "daniel sumah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielsumah/JS/issues"
+  },
+  "homepage": "https://github.com/danielsumah/JS#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
